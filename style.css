@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: #000;
+    --bg-second: #3e3e3e;
+    --txt-color: #fff;
+    --txt: #95fe01;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--txt-color);
+}
+
+.container {
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1 {
+    font-size: 40px;
+    color: var(--txt);
+    margin-bottom: 30px;
+}
+
+.container .container-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .container-input .slider {
+    -webkit-appearance: none;
+    border-radius: 5px;
+    background-color: var(--txt-color);
+}
+
+.container .container-input span {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.container .container-input button {
+    width: 350px;
+    font-size: 20px;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 0;
+    margin: 20px 0;
+    background-color: #95fe01;
+    cursor: pointer;
+}
+
+.container .slider {
+    width: 350px;
+    height: 20px;
+}
+
+.container-password {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-password .title {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.container-password .password {
+    width: 400px;
+    height: 50px;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    border-radius: 10px;
+    background-color: var(--bg-second);
+    transition: .5s;
+    cursor: pointer;
+}
+
+.container-password .password:hover {
+    transform: scale(1.05);
+}
+
+.container-password .tooltip {
+    opacity: 0;
+    transition: .5s;
+}
+
+.hide {
+    display: none;
+}
+
+.container-password:hover .tooltip {
+    opacity: 1;
+}
