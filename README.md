@@ -1,2 +1,2 @@
-# Gerardo-de-senhas
+# Gerador-de-senhas
  Site gerador de senhas
