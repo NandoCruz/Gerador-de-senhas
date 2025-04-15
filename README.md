@@ -1,10 +1,10 @@
 # Gerador-de-senhas
 ## Site gerador de senhas
 
-Tela principal do gerador de senhas
+## Tela principal do gerador de senhas
  ![TelaPrincipal](https://github.com/NandoCruz/Gerador-de-senhas/blob/main/GeradorSenha.png)
 
-Nsta tela gera uma senha de 25 caracteres. 
+## Nesta tela gera uma senha de 25 caracteres. 
 ![TelaraMaxima](https://github.com/NandoCruz/Gerador-de-senhas/blob/main/GeradorSenha01.png)
 
 ![AssinaturaOnLine](https://github.com/NandoCruz/PowerBI-dashboard/blob/main/imagens/AssinaturaOnLine.png)
